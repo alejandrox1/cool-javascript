@@ -1,11 +1,10 @@
-FROM node:8.16.2
+FROM node:10.16.3
 
 WORKDIR /app
 RUN apt-get update -y \
     && apt-get install -y vim
 
+WORKDIR /app/my-app
 USER node
-
-ADD ./my-app /app/my-app/
 
 ENTRYPOINT ["/bin/bash"]
