@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@feathersjs/express": "^4.3.7",
-    "@feathersjs/feathers": "^4.3.7",
+    "@feathersjs/feathers": "^4.5.1",
     "@feathersjs/socketio": "^4.3.7"
   }
 }
